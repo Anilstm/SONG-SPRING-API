@@ -137,4 +137,4 @@ Updates the details of a song in the `playlist` based on the `songId`. If the gi
 
 #### Description:
 
-Deletes a song from the `playlist`  based on the `songId`. If the given `songId` is not found in the `playlist`, raise `ResponseStatusException` with `HttpStatus.NOT_FOUND`.
+Deletes a song from the `playlist`  based on the `songId`. If the given `songId` is not found in the `playlist`, raise `ResponseStatusException` with HttpStatus.NOT_FOUND.
