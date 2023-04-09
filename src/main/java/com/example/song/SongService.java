@@ -6,7 +6,6 @@ import java.util.*;
 import com.example.song.Song;
 import com.example.song.SongRepository;
 
-// Don't modify the below code
 public class SongService implements SongRepository {
     private static HashMap<Integer, Song> playlist = new HashMap<>();
     int uniqueSongId=6;
@@ -17,10 +16,6 @@ public class SongService implements SongRepository {
         playlist.put(4, new Song(4, "Vizhiyil", "Vairamuthu", "Unni Menon", "A.R. Rahman"));
         playlist.put(5, new Song(5, "Nenjame", "Panchu Arunachalam", "S.P.Balasubrahmanyam", "Ilaiyaraaja"));
     }
-
-    // Don't modify the above code
-
-    // Write your code here
     @Override
     public ArrayList<Song> getSongs(){
         Collection<Song> songCollection=playlist.values();
